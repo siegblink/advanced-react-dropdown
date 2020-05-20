@@ -24,6 +24,8 @@ $speed: 500ms;
   align-items: center;
   justify-content: center;
   transition: filter 300ms;
+  outline: none;
+  cursor: pointer;
 }
 
 .navbar {
@@ -93,6 +95,8 @@ $speed: 500ms;
             border-radius: $border-radius;
             transition: background $speed;
             padding: 0.5rem;
+            outline: none;
+            cursor: pointer;
 
             .icon-button {
               margin-right: 0.5rem;
